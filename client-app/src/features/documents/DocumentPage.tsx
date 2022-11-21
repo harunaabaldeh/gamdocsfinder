@@ -1,9 +1,11 @@
 import React from 'react'
-import DocsCard from './docsCard'
+import DocsCard from './DocsCard'
+import SearchInput from './SearchInput'
 
 function DocumentPage() {
     return (
-        <section className="min-h-screen body-font text-gray-600 ">
+        <section className="min-h-screen bg-white relative pt-30 pb-20 lg:pt-44 dark:bg-gray-900">
+            <SearchInput />
             <div className="container mx-auto px-5 py-10">
                 <div className="-m-4 flex flex-wrap">
                     {/* display docCard 8 times */}
