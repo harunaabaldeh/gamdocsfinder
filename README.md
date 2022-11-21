@@ -1,3 +1,3 @@
 # gamdocsfinder
 
-A place to find your missing documents http://gamdocsfinder.gm
+A place to find your missing documents https://gamdocsfinder.gm
