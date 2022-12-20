@@ -82,6 +82,17 @@ namespace Persistence
                     PlaceFound = "Nafugan Jomel",
                     DateFound = DateTime.UtcNow
                 },
+                new Document
+                {
+                   DocumentName = "Passport",
+                    FounderFullName = "Ali Baldeh",
+                    FounderPhoneNumber = "123-456-7",
+                    FounderAddress = "New Jersey",
+                    OwnerFullName = "Abdoulie Mbye",
+                    DocumentNumber = "123-2344-5555",
+                    PlaceFound = "Orelando",
+                    DateFound = DateTime.UtcNow
+                },
             };
 
             await context.Documents.AddRangeAsync(documents);
