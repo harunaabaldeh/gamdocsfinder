@@ -29,52 +29,57 @@ namespace Persistence
                 new Document
                 {
                     DocumentName = "ID",
-                    FirstName = "Haruna A",
-                    LastName = "Baldeh",
+                    FounderFullName = "Haruna A Baldeh",
+                    FounderPhoneNumber = "123-456-7",
+                    FounderAddress = "Nafugan Jomel",
+                    OwnerFullName = "Ensa Wally",
                     DocumentNumber = "123-2344-5555",
-                    FounderName = "1234567",
                     PlaceFound = "Sinchu Alagi",
                     DateFound = DateTime.UtcNow
 
                 },
                 new Document
                 {
-                    DocumentName = "ID",
-                    FirstName = "Fabala",
-                    LastName = "Dibbasey",
+                    DocumentName = "Passport",
+                    FounderFullName = "Awa Krubally",
+                    FounderPhoneNumber = "123-456-7",
+                    FounderAddress = "Kunkujang Keitya",
+                    OwnerFullName = "Anna Marie Mendy",
                     DocumentNumber = "123-2344-5555",
-                    FounderName = "1234567",
-                    PlaceFound = "Sinchu Alagi",
+                    PlaceFound = "Wellingara",
                     DateFound = DateTime.UtcNow
                 },
                 new Document
                 {
                     DocumentName = "ID",
-                    FirstName = "Oliver",
-                    LastName = "Valentine",
+                    FounderFullName = "Musa Ndow",
+                    FounderPhoneNumber = "123-456-7",
+                    FounderAddress = "Nusrat Village",
+                    OwnerFullName = "Edrisa Buwaro",
                     DocumentNumber = "123-2344-5555",
-                    FounderName = "1234567",
-                    PlaceFound = "Serekunda Mosque",
+                    PlaceFound = "Kunkujang Keitaya",
                     DateFound = DateTime.UtcNow
                 },
                 new Document
                 {
-                    DocumentName = "ID",
-                    FirstName = "Abdoulie",
-                    LastName = "Kassama",
+                    DocumentName = "Work ID",
+                    FounderFullName = "Sulayman Mbye",
+                    FounderPhoneNumber = "123-456-7",
+                    FounderAddress = "Sare Bojo",
+                    OwnerFullName = "Mariatou Waggeh",
                     DocumentNumber = "123-2344-5555",
-                    FounderName = "1234567",
-                    PlaceFound = "Brusubi",
+                    PlaceFound = "Basse, Mansanjang",
                     DateFound = DateTime.UtcNow
                 },
                 new Document
                 {
-                    DocumentName = "ID",
-                    FirstName = "Michael",
-                    LastName = "Jallow",
+                   DocumentName = "Passport",
+                    FounderFullName = "Medina Krubally",
+                    FounderPhoneNumber = "123-456-7",
+                    FounderAddress = "Sinchu Alagi",
+                    OwnerFullName = "Abdoulie Mbye",
                     DocumentNumber = "123-2344-5555",
-                    FounderName = "1234567",
-                    PlaceFound = "Bakau New Town",
+                    PlaceFound = "Nafugan Jomel",
                     DateFound = DateTime.UtcNow
                 },
             };

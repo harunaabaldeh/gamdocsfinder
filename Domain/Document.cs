@@ -9,10 +9,11 @@ namespace Domain
     {
         public Guid Id { get; set; }
         public string DocumentName { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FounderFullName { get; set; }
+        public string FounderPhoneNumber { get; set; }
+        public string FounderAddress { get; set; }
+        public string OwnerFullName { get; set; }
         public string DocumentNumber { get; set; }
-        public string FounderName { get; set; }
         public string PlaceFound { get; set; }
         public DateTime DateFound { get; set; }
         public string Image { get; set; }
